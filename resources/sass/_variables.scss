@@ -1,0 +1,52 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'proxima-nova', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$immco-blue: #00384d;
+$immco-red: #c00001; 
+
+.text-blue {
+    color: $immco-blue !important;
+}
+.bg-blue {
+    background: $immco-blue !important; 
+}
+.text-red {
+    color: $immco-red !important; 
+}
+.bg-cyan {
+    background: #00aeff !important; 
+}
+
+.text-cyan {
+    color: #00aeff !important;
+}
+
+.display-3 {
+    font-size: 3rem !important; 
+}
+
+.display-8 {
+    font-size: 1.2rem !important; 
+}
+
+@media only screen and (max-width: 292px) {
+    .display-3 {
+        font-size: 3rem !important;  
+    }
+}

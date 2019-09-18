@@ -1,0 +1,144 @@
+.navbar-brand {
+    img {
+        width: auto;
+        height: 50px;
+    }
+}
+
+.footer {
+    .nav-link {
+        line-height: 30px !important; 
+    }
+}
+
+.navbar-nav {
+    .nav-item {
+        .nav-link {
+            transition: all 0.15s linear; 
+            font-size: 1.1rem; 
+        }
+        .nav-link:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+#carouselExampleIndicators {
+    border-left: 1px solid black; 
+    .carousel-inner {
+        height: 70vh;
+        overflow: hidden; 
+        .carousel-item {
+            height: 70vh; 
+        }
+        .carousel-item img {
+            position: relative; 
+            min-width: 100% !important; 
+            min-height: 100% !important; 
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .carousel-caption {
+            position: absolute; 
+            left: 0;
+            width: 100%;
+            text-align: left; 
+            background-color: rgba(0,0,0,.87); 
+            bottom: 0; 
+            h5 {
+                font-size: 1.5rem !important; 
+                line-height: 1 !important; 
+            }
+            p {
+                font-style: italic; 
+            }
+        }
+    }
+    .carousel-indicators {
+        justify-content: flex-end !important; 
+        top: 60vh;
+        margin-left: 23% !important; 
+        margin-right: 23% !important; 
+        li {
+            width: 10px;
+            height: 10px; 
+            border-radius: 50%; 
+        }
+    }
+}
+
+.card-subtitle {
+    line-height: 1.5;
+    font-size: 1rem; 
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #fff; 
+        position: fixed; 
+        z-index: 25;
+        top:0;
+        right:0;
+        height: 100vh; 
+        padding: 15vh 5vh 5vh 15vw;
+        width: 100vw; 
+        .nav-link {
+            font-size: 2rem !important; 
+        }
+    }
+    .close-menu {
+        position: absolute; 
+        top: 60px;
+        right: 25px;
+    }
+    .jumbotron-fluid {
+        p.lead {
+            font-size: 0.85rem !important;
+            line-height: 1.1 !important; 
+        }
+    }
+    .display-4 {
+        line-height: 1 !important; 
+    }
+    .leadership {
+        text-align: center !important; 
+    }
+}
+
+#video-background {
+    height: 80vh; 
+    overflow: hidden; 
+    z-index: -1; 
+    position: absolute; 
+    left: 0;
+    width: 100%;
+    top: 108.22px;
+    #my-video {
+        position: relative; 
+        min-width: 100vw !important;
+        min-height: 100vh !important; 
+        left: 50%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+    }
+    #video-overlay {
+        background: rgba(0,0,0,.37);
+        position: absolute; 
+        width: 100%;
+        min-height: 80vh;
+        top: 0;
+        left: 0; 
+    }
+}
+
+.modal-container:hover {
+    cursor: zoom-in;
+}
+
+.uploaded-thumbnail {
+    width: 200px; 
+    height: auto;
+}
+
+
